@@ -74,8 +74,7 @@ domReady(function() {
             // alert(this.responseText);
         }
     }
-    loader.open('HEAD', 'http://airbnb.douglasmaia.com/api/properties', true);
-    loader.timeout = 2000; 
+    loader.open('GET', 'http://airbnb.douglasmaia.com/api/properties', true);
     loader.send(); // use null para métodos que não forem POST
 
 
