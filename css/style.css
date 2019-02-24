@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    font-family: 'Lato';
+    color: #4b4b4b;
+}
+
+.main-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header {
+    display: flex;
+    background-color: #fff;
+    border-bottom: 1px solid #ececec;
+    padding: 1rem 1.5rem;
+    height: 55px;
+}
+
+.page-body {
+    display: flex;
+    padding: 1rem;
+    height: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    font-size: 13px;
+    padding: .5rem;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    height: 45px;
+    font-family: 'Lato';
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(250, 90, 98, .3);
+    border: 1px solid rgba(250, 90, 98, .3);
+}
+
+.search-bar-container {
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
+    padding-left: 2rem;
+}
+
+.search-bar-container i {
+    color: #4b4b4b;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.acomodacao-page {
+    height: 500px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.photo-acomodacao {
+    width: 100%;
+    height: 80%;
+}
+
+.photo-acomodacao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-description {
+    padding: .5rem;
+    padding-left: 0;
+}
+
+.descript-acomodacao {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+
+.tipo {
+    margin-bottom: .2rem;
+    font-size: 12px;
+    color: rgb(118, 118, 118);
+}
+
+.valor-acomodacao {
+    margin-bottom: .2rem;
+}
+
+.valor-acomodacao span {
+    font-size: 14px;
+}
+
+.valor-diaria {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .acomodacao-page {
+        width: 100%;
+        margin-right: 1em;
+    }
+}
